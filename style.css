@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2 family=Noto+Sans+JP&display=swap');
+ul{display:flex;flex-direction:column;justify-content:flex-end; 
+list-style-type: square; font-family: 'Noto Sans JP', sans-serif;}
+p{font-family: 'Noto Sans JP', sans-serif;}
+.image{display:block;width: 100%;height: auto;max-width: 100%;margin-left: auto; margin-right: auto;}
+img-div{
+  max-width: auto;
+  height: auto;
+}
+@media (max-width: 500px):{
+  .image{width:50%}
+}
